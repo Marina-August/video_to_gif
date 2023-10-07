@@ -156,7 +156,7 @@
 .upload{
     display: flex;
     gap:1rem;
-    width: 12.6rem;
+    width: 12.5rem;
     margin-left: 53rem;
     margin-top: -8rem;
     z-index: 20;
@@ -171,6 +171,7 @@
 .radio_label{
     margin-left: 4px;
     color: #b8c6db;
+    font-family: serif;
 }
 .progress_bar{
     margin-left: 35rem;
