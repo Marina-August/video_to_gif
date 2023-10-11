@@ -1,6 +1,4 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
-
 import './App.css';
 import HomePage from './pages/Home';
 
@@ -19,7 +17,7 @@ const router = createBrowserRouter([
 
 
 const App=()=> {
-  return <PrimeReactProvider> <RouterProvider router={router} /> </PrimeReactProvider>;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
